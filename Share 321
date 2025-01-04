@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Buttons</title>
+    <style>
+        .share-buttons {
+            margin: 20px;
+        }
+        .share-buttons button {
+            padding: 10px 15px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Share My Website</h1>
+    <p>Share this website with your friends!</p>
+
+    <div class="share-buttons">
+        <!-- Facebook Share Button -->
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" target="_blank">
+            <button style="background-color: #3b5998; color: white;">Share on Facebook</button>
+        </a>
+
+        <!-- Twitter Share Button -->
+        <a href="https://twitter.com/intent/tweet?url=https://yourwebsite.com&text=Check out this website!" target="_blank">
+            <button style="background-color: #1DA1F2; color: white;">Share on Twitter</button>
+        </a>
+
+        <!-- LinkedIn Share Button -->
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://yourwebsite.com&title=Check out this website!" target="_blank">
+            <button style="background-color: #0077B5; color: white;">Share on LinkedIn</button>
+        </a>
+    </div>
+</body>
+</html>
